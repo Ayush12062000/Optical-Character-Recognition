@@ -51,16 +51,16 @@ One can train this model on GPU for faster results.
 
 
 
-A little about the datastst used for taining:-
+A little about the dataset used for taining:-
 
 The mnist folder has the subfolder named mnist , which contains the zip files of mnist training dataset i.e. test and train folders, which is extracted to the mnist_test and mnist_train folders.
 The noise_image folder contains the background images (i.e. pictures of the documents) for the training dataset which we have been made by us.
 
 
-The yolov3.py contains the code for training the model for data where the functions darknet53() and darknet19_tiny contains the code for tranining the model.
+The yolov3.py contains the code for training the model for data where the functions darknet53() and darknet19_tiny contains the code for training the model.
 
 
-The next is the configs.py file which conatins all the configurations used while training the model as welll as testing it. It includes:-
+The next is the configs.py file which conatins all the configurations used while training the model as well as testing it. It includes:-
 
 1. Yolo Options
 ```
@@ -96,7 +96,7 @@ TRAIN_EPOCHS                = 30
 
 ```
 
-This saves the best model accodring the validation loss and checkpoints asscoiated in training process hence TRAIN_SAVE_CHECKPOINT should be set to False.
+This saves the best model according to the validation loss and checkpoints asscoiated in training process, hence TRAIN_SAVE_CHECKPOINT should be set to False.
 TRAIN_CLASSES contains the classes into which the model will classify the digits into 0,1,.....,9.
 
 3. Model Test Options
