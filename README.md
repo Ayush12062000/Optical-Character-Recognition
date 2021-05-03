@@ -60,7 +60,7 @@ The noise_image folder contains the background images (i.e. pictures of the docu
 The yolov3.py contains the code for training the model for data where the functions darknet53() and darknet19_tiny contains the code for tranining the model.
 
 
-The next is the configs.py file which conatins alll the configurations used while training the model as welll as testing it. It includes:-
+The next is the configs.py file which conatins all the configurations used while training the model as welll as testing it. It includes:-
 
 1. Yolo Options
 ```
