@@ -175,6 +175,3 @@ Track training progress in Tensorboard and go to http://localhost:6006/:
 
 
 
-<p>
-    <img width="100%" src="Displayimages/output_2_document.jpeg" style="max-width:100%;"></a>
-</p>
