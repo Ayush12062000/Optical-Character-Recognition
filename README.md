@@ -57,7 +57,7 @@ The mnist folder has the subfolder named mnist , which contains the zip files of
 The noise_image folder contains the background images (i.e. pictures of the documents) for the training dataset which we have been made by us.
 
 
-The yolov3.py contains the code for training the model for data where the functions darknet53() and darknet19_tiny contains the code for training the model.
+The yolov3 contains the code for training the model for data where the functions darknet53() and darknet19_tiny contains the code for training the model.
 
 
 The next is the configs.py file which contains all the configurations used while training the model as well as testing it. It includes:-
