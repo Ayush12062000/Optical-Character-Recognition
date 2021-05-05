@@ -1,9 +1,7 @@
-import os
+import os, random, time
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 import cv2
 import numpy as np
-import random
-import time
 import tensorflow as tf
 import image_slicer
 from yolov3.yolov4 import Create_Yolo
